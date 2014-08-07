@@ -1,0 +1,40 @@
+#homepage-hero {
+  
+  padding-top: 3em;
+  padding-bottom: 1em;
+  background: #0971B2;
+}
+#hero-header{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 45px;
+  text-shadow: rgba(0, 0, 0, 0.18) 0px 2px 0px;
+}
+.centered-text{
+  text-align: center;
+}
+.header-image{
+  width: 100%;
+}
+
+
+@media only screen and (max-width: 320px) {
+  #hero-header{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    text-shadow: rgba(0, 0, 0, 0.18) 0px 2px 0px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+
+  /*
+  #header-hero {
+    background: #0971B2 url(/img/homepage-hero-white.svg) center no-repeat;
+    background-size: 80%;
+  } 
+  */
+}
+
+ 
