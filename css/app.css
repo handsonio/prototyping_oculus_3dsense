@@ -1,14 +1,26 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 #homepage-hero {
-  
   padding-top: 3em;
   padding-bottom: 1em;
   background: #0971B2;
 }
-#hero-header{
+#hero-header h1{
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 45px;
   text-shadow: rgba(0, 0, 0, 0.18) 0px 2px 0px;
+}
+#hero-header a{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 15px;
+  text-shadow: rgba(0, 0, 0, 0.18) 0px 2px 0px;
+}
+
+#hero-header p {  
+  color: #F8F8F8;
 }
 .centered-text{
   text-align: center;
@@ -17,14 +29,53 @@
   width: 100%;
 }
 
+#scanning-header {
+  padding-top: 20em;
+  padding-bottom: 20em;
+  background: url(/img/3d-sense.jpg);
+  
+
+}
 
 @media only screen and (max-width: 320px) {
-  #hero-header{
+  #hero-header {
+    text-align: center;
+  }
+  #hero-header h1{
     font-family: 'Montserrat', sans-serif;
     color: white;
-    text-align: center;
     font-size: 35px;
     text-shadow: rgba(0, 0, 0, 0.18) 0px 2px 0px;
+  }
+  #hero-header a{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 15px;
+    text-shadow: rgba(0, 0, 0, 0.18) 0px 2px 0px;
+
+  }
+}
+@media screen
+    and (max-device-width: 601px)
+    and (orientation : portrait) 
+    and (-webkit-min-device-pixel-ratio: 1.331)
+    and (-webkit-max-device-pixel-ratio: 1.332){
+
+  #hero-header {
+    text-align: center;
+  }
+  #hero-header h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 35px;
+    text-shadow: rgba(0, 0, 0, 0.18) 0px 2px 0px;
+  }
+  #hero-header a{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 15px;
+    text-shadow: rgba(0, 0, 0, 0.18) 0px 2px 0px;
+
   }
 }
 @media only screen and (min-width: 1200px) {
